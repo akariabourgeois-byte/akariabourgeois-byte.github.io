@@ -27,15 +27,23 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
+     toggleGrid();
 
 
     // TODO 2 - Create Platforms
+    createPlatform(200, 400, 100, 20, "white")
+    createPlatform(500, 200, 100, 20, "hotpink")
+    createPlatform(500, 500, 100, 20, "hotpink")
+    createPlatform(800, 300, 100, 20, "white")
+    createPlatform(1000, 100, 100,20, "hotpink")
+    createPlatform(1100, 500, 100, 20,"hotpink")
+    createPlatform(1300, 200, 100,20, "white")
 
 
 
 
     // TODO 3 - Create Collectables
+    
 
 
 
