@@ -38,18 +38,25 @@ $(function () {
     createPlatform(1000, 100, 100,20, "hotpink")
     createPlatform(1100, 500, 100, 20,"hotpink")
     createPlatform(1300, 200, 100,20, "white")
+    createPlatform(100, 700, 100, 20, "hotpink")
+    createPlatform(300, 600, 100, 20, "white")
 
 
 
 
     // TODO 3 - Create Collectables
-    
+      createCollectable("kennedi", 1335, 165);
+      createCollectable("kennedi", 830, 265);
+      createCollectable("kennedi", 230, 365);
 
 
 
     
     // TODO 4 - Create Cannons
-
+    createCannon("left", 340, 700);
+    createCannon("top", 760, 700);
+    createCannon("bottom",640, 900 );
+    createCannon("right", 460,);
 
     
     
